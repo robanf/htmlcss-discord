@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: Tahoma, sans-serif;
 }
-header{
-    
-}
+
 nav {
     background-color: #3161E0;
     padding-top: 20px;
@@ -85,4 +83,42 @@ form{
 
 .title-btn{
     margin-top: 20px;
+}
+
+.container{
+    vertical-align: middle;
+    margin-top: 150px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.container::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container img{
+    float: left;
+    
+    
+}
+
+.container .scritte{
+    float: left;
+    width: 45%;
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.scritte h2{
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.scritte span{
+    display: inline-block;
+    font-size: 25px;
+    line-height: 40px;
 }
