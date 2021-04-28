@@ -136,31 +136,40 @@ form{
     line-height: 40px;
 }
 
-
+.onda{
+    line-height: 0px;
+}
 .container-2{
     vertical-align: middle;
-    
-    
-    
+    background-color:#f3f4f3;
+    padding-top: 100px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 100px;
 }
 
 .container-2::after{
     content: '';
     display: table;
     clear: both;
+    
 }
 
 .container-2 img{
-    float: left;
-    background-color:#f3f4f3;
+    float: right;
+    margin-right: 50px;
     
 }
 
 .container-2 .scritte{
-    float: left;
+    float: right;
     width: 45%;
     vertical-align: middle;
     text-align: left;
     padding-top: 30px;
-    background-color:#f3f4f3;
+    
+}
+
+.scritte h2{
+    line-height: 40px;
 }
