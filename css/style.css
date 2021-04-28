@@ -30,12 +30,25 @@ nav a{
     color: white;
     text-decoration: none;
 }
+nav a:hover{
+    text-decoration:underline;
+    
+}
 
 .btn{
     border-radius: 50px;
     border: 1px solid;
     padding: 8px 10px;
+    display: inline-block;
 }
+.btn a{
+    text-decoration: none;
+    color: gray;
+}
+.btn:hover {
+    box-shadow: 5px 5px rgba(2, 2, 2, 0.5);
+}
+
 form{
     display: inline-block;
 }
@@ -121,4 +134,33 @@ form{
     display: inline-block;
     font-size: 25px;
     line-height: 40px;
+}
+
+
+.container-2{
+    vertical-align: middle;
+    
+    
+    
+}
+
+.container-2::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-2 img{
+    float: left;
+    background-color:#f3f4f3;
+    
+}
+
+.container-2 .scritte{
+    float: left;
+    width: 45%;
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 30px;
+    background-color:#f3f4f3;
 }
