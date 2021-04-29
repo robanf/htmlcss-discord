@@ -43,7 +43,7 @@ nav a:hover{
 }
 .btn a{
     text-decoration: none;
-    color: gray;
+    color: black;
 }
 .btn:hover {
     box-shadow: 5px 5px rgba(2, 2, 2, 0.5);
@@ -67,6 +67,9 @@ form{
     background-color:black;
     border-color:black;
     color: white;
+}
+.black a{
+    color:white;
 }
 
 
